@@ -60,7 +60,7 @@ extras_require['dev'] = (
 setup(
     name='web3',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
-    version='5.5.1',
+    version='5.5.1b',
     description="""Web3.py""",
     long_description_markdown_filename='README.md',
     author='Piper Merriam',
@@ -73,7 +73,7 @@ setup(
         "eth-hash[pycryptodome]>=0.2.0,<1.0.0",
         "eth-typing>=2.0.0,<3.0.0",
         # "eth-utils @ https://api.github.com/repos/dHonerkamp/eth-utils/tarball/v1.8.4",
-        "eth-utils==1.8.4a",
+        "eth-utils==1.8.5a",
         "hexbytes>=0.1.0,<1.0.0",
         "ipfshttpclient>=0.4.12,<1",
         "jsonschema>=3.0.0,<4.0.0",
@@ -85,7 +85,7 @@ setup(
          "typing-extensions>=3.7.4.1,<4;python_version<'3.8'",
         "websockets>=8.1.0,<9.0.0",
     ],
-    dependency_links = ['http://github.com/dHonerkamp/eth-utils/tarball/ethmint-adapt#egg=eth-utils-1.8.4a'],
+    dependency_links = ['http://github.com/dHonerkamp/eth-utils/tarball/ethmint-adapt#egg=eth-utils-1.8.5a'],
     setup_requires=['setuptools-markdown'],
     python_requires='>=3.6,<4',
     extras_require=extras_require,
